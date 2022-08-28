@@ -11,17 +11,19 @@ console.log(currentTime)
 
 let classRow = $('div')
     .find('.row')
-    .addClass('timeLine', timeSetting)
+
 
 function timeSetting() {
     for (let i = 9; i < 24; i++) {
-
+        classRow.addClass('i++')
     }
 }
 
-console.log(classRow)
+console.log(classRow[3])
 
+// if (currentTime< classRow[currentTime-9]){
 
+// } else if
 // get input and save the change to local storage
 
 
